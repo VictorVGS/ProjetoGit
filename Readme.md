@@ -6,36 +6,30 @@ Comandos do Git:
 
 Após isto, você poderá utilizar os seguintes comandos:
 
-- git init
+git init
 
-Iniciar o Git neste projeto.
+- Iniciar o Git neste projeto.
 
+git add < arquivo >
 
-- git add < arquivo >
+- Adicionará o arquivo ao 'Stage'.
 
-Adicionará o arquivo ao 'Stage'.
+git commit -m "< comentário >"
 
+- Dá um Commit nos arquivos do Stage, e adiciona um comentário ao Commit.
 
-- git commit -m "< comentário >"
+git branch -M main
 
-Dá um Commit nos arquivos do Stage, e adiciona um comentário ao Commit.
+- muda o nome da branch de "Master" para "Main".
 
+git remote add origin < link do repositório do GitHub >
 
-- git branch -M main
+- Conecta o Git ao repositório.
 
-muda o nome da branch de "Master" para "Main".
+git push -u origin main
 
+- Envia as alterações ao repositório do GitHub.
 
-- git remote add origin < link do repositório do GitHub >
+git status
 
-Conecta o Git ao repositório.
-
-
-- git push -u origin main
-
-Envia as alterações ao repositório do GitHub.
-
-
-- git status
-
-mostra o status atual do Stage, etc.
+- mostra o status atual do Stage, etc.
